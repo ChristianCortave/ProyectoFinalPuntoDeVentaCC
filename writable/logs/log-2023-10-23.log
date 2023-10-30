@@ -1,0 +1,9 @@
+CRITICAL - 2023-10-23 22:15:13 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\clientes.php on line 231.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes', [], true)
+ 3 APPPATH\Controllers\ClientesController.php(29): view('clientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->clientes()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

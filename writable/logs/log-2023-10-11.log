@@ -1,0 +1,236 @@
+ERROR - 2023-10-11 01:23:00 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Punto_De_Venta\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Punto_De_Venta\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'puntodeventa', 3306, '', 0)
+#1 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Punto_De_Venta\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Punto_De_Venta\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Punto_De_Venta\app\Controllers\CategoriasController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(915): App\Controllers\CategoriasController->categoria()
+#8 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriasController))
+#9 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Punto_De_Venta\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Punto_De_Venta\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Punto_De_Venta\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Punto_De_Venta\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Punto_De_Venta\app\Controllers\CategoriasController.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(915): App\Controllers\CategoriasController->categoria()
+#7 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriasController))
+#8 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Punto_De_Venta\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 01:23:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categorias`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\CategoriasController.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CategoriasController->categoria()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoriasController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-11 01:23:12 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Punto_De_Venta\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\Punto_De_Venta\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'puntodeventa', 3306, '', 0)
+#1 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Punto_De_Venta\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Punto_De_Venta\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Punto_De_Venta\app\Controllers\UnidadesController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(915): App\Controllers\UnidadesController->unidades()
+#8 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadesController))
+#9 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Punto_De_Venta\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\Punto_De_Venta\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Punto_De_Venta\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Punto_De_Venta\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Punto_De_Venta\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Punto_De_Venta\app\Controllers\UnidadesController.php(28): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(915): App\Controllers\UnidadesController->unidades()
+#7 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadesController))
+#8 C:\xampp\htdocs\Punto_De_Venta\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Punto_De_Venta\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-10-11 01:23:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `unidades`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UnidadesController.php(28): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UnidadesController->unidades()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadesController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:13:38 --> Undefined array key "fecha_alta"
+in APPPATH\Views\frmactualizarcategoria.php on line 67.
+ 1 APPPATH\Views\frmactualizarcategoria.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_alta"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcategoria', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(41): view('frmactualizarcategoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:15:34 --> Undefined array key "fecha_alta"
+in APPPATH\Views\frmactualizarcategoria.php on line 67.
+ 1 APPPATH\Views\frmactualizarcategoria.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_alta"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcategoria', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(41): view('frmactualizarcategoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:16:53 --> Undefined array key "fecha_alta"
+in APPPATH\Views\frmactualizarcategoria.php on line 67.
+ 1 APPPATH\Views\frmactualizarcategoria.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_alta"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcategoria', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(41): view('frmactualizarcategoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:16:58 --> Undefined array key "fecha_alta"
+in APPPATH\Views\frmactualizarcategoria.php on line 67.
+ 1 APPPATH\Views\frmactualizarcategoria.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_alta"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcategoria', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(41): view('frmactualizarcategoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:18:04 --> Undefined array key "fecha_alta"
+in APPPATH\Views\frmactualizarcategoria.php on line 67.
+ 1 APPPATH\Views\frmactualizarcategoria.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha_alta"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcategoria.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcategoria', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(41): view('frmactualizarcategoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:33:09 --> Class "App\Controllers\CategoriasModel" not found
+in APPPATH\Controllers\ProductosController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:33:58 --> Undefined variable $resultadoproductos
+in APPPATH\Views\productos.php on line 264.
+ 1 APPPATH\Views\productos.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoproductos', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(36): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:35:21 --> Undefined variable $resultadoproductos
+in APPPATH\Views\productos.php on line 264.
+ 1 APPPATH\Views\productos.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoproductos', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(36): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:36:13 --> Undefined variable $resultadoproductos
+in APPPATH\Views\productos.php on line 264.
+ 1 APPPATH\Views\productos.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoproductos', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(36): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:38:00 --> Undefined variable $resultadoproductos
+in APPPATH\Views\productos.php on line 264.
+ 1 APPPATH\Views\productos.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoproductos', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(37): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:39:43 --> Undefined variable $resultadoproductos
+in APPPATH\Views\productos.php on line 264.
+ 1 APPPATH\Views\productos.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoproductos', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(37): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:40:46 --> Undefined variable $resultadoproductos
+in APPPATH\Views\productos.php on line 264.
+ 1 APPPATH\Views\productos.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadoproductos', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\productos.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(37): view('productos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ProductosController->producto()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:43:33 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\ProductosController.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:43:45 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\ProductosController.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-11 02:44:52 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Controllers\ProductosController.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\ProductosController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductosController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductosController')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\ProductosController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

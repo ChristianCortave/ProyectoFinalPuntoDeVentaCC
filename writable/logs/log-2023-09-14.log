@@ -1,0 +1,38 @@
+CRITICAL - 2023-09-14 01:19:30 --> Undefined variable $data
+in APPPATH\Views\unidades.php on line 139.
+ 1 APPPATH\Views\unidades.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\unidades.php', 139)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\unidades.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidades', [], true)
+ 5 APPPATH\Controllers\UnidadesController.php(29): view('unidades', [...])
+ 6 APPPATH\Controllers\UnidadesController.php(69): App\Controllers\UnidadesController->unidades()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UnidadesController->modificar()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadesController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 01:42:46 --> syntax error, unexpected identifier "unidades", expecting ";"
+in APPPATH\Controllers\UnidadesController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\UnidadesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UnidadesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UnidadesController')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\UnidadesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 01:43:21 --> Undefined constant "App\Controllers\unidades"
+in APPPATH\Controllers\UnidadesController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UnidadesController->eliminar('20')
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadesController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-14 01:43:51 --> Undefined variable $resultadounidades
+in APPPATH\Views\unidades.php on line 218.
+ 1 APPPATH\Views\unidades.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadounidades', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\unidades.php', 218)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\unidades.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidades', [], true)
+ 5 APPPATH\Controllers\UnidadesController.php(40): view('unidades')
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UnidadesController->eliminar('20')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnidadesController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,84 @@
+CRITICAL - 2023-10-29 15:53:21 --> Undefined array key "correo"
+in APPPATH\Views\configuracion.php on line 246.
+ 1 APPPATH\Views\configuracion.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\configuracion.php', 246)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\configuracion.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('configuracion', [], true)
+ 5 APPPATH\Controllers\ConfiguracionController.php(29): view('configuracion', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ConfiguracionController->configuracion()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConfiguracionController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:25:19 --> Undefined variable $resultadounidades
+in APPPATH\Views\usuarios.php on line 240.
+ 1 APPPATH\Views\usuarios.php(240): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultadounidades', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\usuarios.php', 240)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\UsuariosController.php(29): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UsuariosController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:28:45 --> Undefined variable $dato
+in APPPATH\Views\usuarios.php on line 294.
+ 1 APPPATH\Views\usuarios.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\usuarios.php', 294)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\UsuariosController.php(29): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UsuariosController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:29:24 --> Undefined variable $dato
+in APPPATH\Views\usuarios.php on line 294.
+ 1 APPPATH\Views\usuarios.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dato', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\usuarios.php', 294)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\UsuariosController.php(29): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UsuariosController->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 16:47:11 --> Invalid file: "frmactualizarusuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frmactualizarusuario.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarusuario', [], true)
+ 3 APPPATH\Controllers\UsuariosController.php(46): view('frmactualizarusuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\UsuariosController->localizar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:25:05 --> Undefined array key "usuario"
+in APPPATH\Views\frmactualizarcajas.php on line 57.
+ 1 APPPATH\Views\frmactualizarcajas.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcajas.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcajas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcajas', [], true)
+ 5 APPPATH\Controllers\CajasController.php(30): view('frmactualizarcajas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CajasController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CajasController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:27:55 --> Undefined array key "id_rol"
+in APPPATH\Views\frmactualizarcajas.php on line 67.
+ 1 APPPATH\Views\frmactualizarcajas.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rol"', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcajas.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\frmactualizarcajas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('frmactualizarcajas', [], true)
+ 5 APPPATH\Controllers\CajasController.php(30): view('frmactualizarcajas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CajasController->localizar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CajasController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 17:28:28 --> Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 380.
+ 1 SYSTEMPATH\BaseModel.php(949): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\CajasController.php(58): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\CajasController->modificar()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CajasController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

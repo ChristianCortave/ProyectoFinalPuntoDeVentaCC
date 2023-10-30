@@ -1,0 +1,63 @@
+CRITICAL - 2023-10-22 22:25:10 --> Class "App\Controllers\CategoriasModel" not found
+in APPPATH\Controllers\ClientesController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->clientes()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 22:59:22 --> Undefined variable $direccion
+in APPPATH\Controllers\ClientesController.php on line 56.
+ 1 APPPATH\Controllers\ClientesController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $direccion', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\ClientesController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->modificar()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 23:01:07 --> Undefined variable $apellido
+in APPPATH\Controllers\ClientesController.php on line 55.
+ 1 APPPATH\Controllers\ClientesController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apellido', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\ClientesController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->modificar()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 23:01:53 --> Undefined variable $apellido
+in APPPATH\Controllers\ClientesController.php on line 55.
+ 1 APPPATH\Controllers\ClientesController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $apellido', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Controllers\\ClientesController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->modificar()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 23:07:44 --> Undefined variable $data
+in APPPATH\Views\clientes.php on line 141.
+ 1 APPPATH\Views\clientes.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\clientes.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\clientes.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(29): view('clientes', [...])
+ 6 APPPATH\Controllers\ClientesController.php(70): App\Controllers\ClientesController->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->modificar()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 23:08:35 --> Undefined variable $data
+in APPPATH\Views\clientes.php on line 141.
+ 1 APPPATH\Views\clientes.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\clientes.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\clientes.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(29): view('clientes', [...])
+ 6 APPPATH\Controllers\ClientesController.php(70): App\Controllers\ClientesController->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->modificar()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 23:08:43 --> Undefined variable $data
+in APPPATH\Views\clientes.php on line 141.
+ 1 APPPATH\Views\clientes.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\clientes.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Punto_De_Venta\\app\\Views\\clientes.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('clientes', [], true)
+ 5 APPPATH\Controllers\ClientesController.php(29): view('clientes', [...])
+ 6 APPPATH\Controllers\ClientesController.php(70): App\Controllers\ClientesController->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\ClientesController->modificar()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
